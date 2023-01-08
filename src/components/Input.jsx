@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Arrow from "../images/icon-arrow.svg";
+
 import validator from "validator";
 
 const Input = () => {
@@ -35,7 +36,7 @@ const Input = () => {
         />
         <button
           // disabled={!validate()}
-          className="fixed left-[480px] w-20 h-12 bg-red-400 rounded-full text-center border-2 border-red-400 "
+          className="fixed left-[480px] w-20 h-12 bg-red-400 hover:bg-neutral-300  rounded-full text-center "
         >
           <img className="pl-8" src={Arrow} alt="arrow" />
         </button>

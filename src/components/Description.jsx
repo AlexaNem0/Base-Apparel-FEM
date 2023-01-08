@@ -4,7 +4,7 @@ import Input from "./Input";
 
 const Description = () => {
   return (
-    <div className="bg-hero_pattern bg-no-repeat bg-auto  pt-10 pl-[10rem] flex flex-col justify-around   ">
+    <div className="bg-hero_pattern bg-no-repeat bg-auto pt-10 pl-[10rem]  flex flex-col justify-around ">
       <img className=" w-[15rem]" src={Logo} alt="" />
       <h1 className="text-7xl font-semibold tracking-widest leading-none ">
         <span className="text-neutral-300">We're</span>
