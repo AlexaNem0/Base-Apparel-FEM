@@ -27,6 +27,7 @@ const Input = () => {
         <input
           className="focus:outline-none w-[25rem] h-12 rounded-full text-center border-2 border-red-400"
           type="email"
+          name="email"
           required
           placeholder="Email address"
           onChange={(e) => validateEmail(e)}
